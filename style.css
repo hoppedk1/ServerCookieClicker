@@ -1,0 +1,196 @@
+body {
+    padding-top: 30px;
+    font-family: Arial;
+    background-color: rgb(155, 70, 13);
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}                                           
+
+p {
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: 5px;
+}
+
+#space {
+    margin: auto;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    border:5px solid;
+    border-radius:10px;
+    background-color: rgb(212, 189, 54);
+    color: white;
+    width:389px;
+    height:60px;
+}
+
+table {
+    margin-top: -600px;
+    border: 2px solid;
+    border-radius: 5px;
+    position: fixed;
+    left: 150px;
+    width: 270px;
+    height: 160px;
+}
+
+td {
+    border:1px solid;
+}
+
+#numbers {
+    margin: auto;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:white;
+    width:200px;
+    height:60px;    
+}
+
+#upgradeLevel {
+    margin: auto;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:300px;
+    height:50px;    
+}
+
+#LevelIncrease1{
+    margin-top: -260px;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 800px;
+}
+#LevelIncrease2{
+    margin-top: -190px;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 800px;
+}
+#LevelIncrease3{
+    margin-top: -120px;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom:20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 800px;
+}
+#ClickIncrease1{
+    margin-top: -260px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 1025px;
+}
+#ClickIncrease2{
+    margin-top: -190px;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 1025px;
+}
+#ClickIncrease3{
+    margin-top: -120px;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 1025px;
+}
+#AmountIncrease1{
+    margin-top: -597px;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 400px;
+}
+#AmountIncrease2{
+    margin-top: -547px;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 400px;
+}
+#AmountIncrease3{
+    margin-top: -497px;
+    text-align:center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border:5px solid;
+    border-radius:10px;
+    background-color:lightpink;
+    width:85px;
+    height:25px; 
+    position: fixed;
+    left: 400px;
+}

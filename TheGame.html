@@ -1,0 +1,62 @@
+
+<html>
+    <head>
+        <script type="text/javascript" src="Cookie.js"></script>
+        <title>ReintroduktionsProjekt-Alex,Janich,Pascal,Hoppe</title>
+        <link rel = "stylesheet" href = "style.css"/>
+    </head>
+
+    <body> 
+        <div id = "space"></div>
+        <div id = "cookie" onclick="cookieClick()">
+            <img src="TheMightyCookie2.png" width="200px"/>
+        </div>
+        
+        <p>Number of Cookies:</p>
+        
+        <div id = "numbers"></div> <script>// denne del her indeholder de 2 vigtige dele som viser mængden af cookies man har, og hvilket nivau af upgrade man er på, ville gerne ændre upgrade </script>
+        <div id= "upgradeLevel"></div>
+        <p>Pris - Upgrades - Clicks</p>
+        <div id = "upgrade" onclick="Upgrade()">
+            <img id="Upgrade1" src="StrongFinger.png" width="50px"/>
+        </div>
+        <p></p>
+         <div id = "UpgradeTwo" onclick="UpgradeTwo()"> 
+            <img id="Upgrade2" src="Booster.png" width="75px"/></div>
+         <div id = "UpgradeThree" onclick="UpgradeThree()">
+            <img id="Upgrade3" src="PowderBag.png" width="75px"/></div>
+        <script>
+            function ChangeImage(OriginalPicture,NewPicture,UpgradeAmount, UpgradesNeeded){// Her har vi en funktion der fanger billedets id og ændrer det til et nyt når man har nok af upgraden
+                var image = document.getElementById(OriginalPicture);//Her fanger vi det billed vi starter med
+            if (UpgradeAmount === UpgradesNeeded) {// Her tjekker vi for om man har nok upgrades
+                image.src = NewPicture;// Her ændrer vi billedet til det nye
+                }
+            }
+        </script>
+
+        <p>Click på cookien, og bliv ved med at upgradere indtil du har cookies nok til at købe den sidste upgrade</p>
+        <table>
+            </tr>
+            <tr>
+                <td>Stronger Clicker Amount Owned</td>
+            </tr>
+            <tr>
+                <td>Booster Amount Owned</td>
+            </tr>
+            <tr>
+                <td>"Special" Powder Amount Owned</td>
+            </tr>
+            
+
+        </table>
+        <div id = "LevelIncrease1"></div>
+        <div id = "LevelIncrease2"></div>
+        <div id = "LevelIncrease3"></div>
+        <div id = "ClickIncrease1"></div>
+        <div id = "ClickIncrease2"></div>
+        <div id = "ClickIncrease3"></div>
+        <div id = "AmountIncrease1"></div>
+        <div id = "AmountIncrease2"></div>
+        <div id = "AmountIncrease3"></div>
+    </body>
+</html>
