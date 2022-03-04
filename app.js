@@ -1,5 +1,10 @@
 let url = "http://localhost:3001"; 
 
+function OpenGame(){
+  insertHighscore();
+
+}
+
 function insertHighscore() {
 
   let data = {

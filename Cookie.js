@@ -1,3 +1,4 @@
+
 // Det meste er koden er blevet lånt fra https://codepen.io/marisdu/pen/ZJKzRG
 var num = 0; // Ens starter værdi
 var level = 1; // Start click værdi
