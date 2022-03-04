@@ -8,7 +8,8 @@ function OpenGame(){
 function LoadHighScore() {
   fetch(url + "/highscore/" + prompt("Name:"))
   .then(response => response.json())
-  .then(data => alert(JSON.stringify(data)));
+  //.then(data => alert(JSON.stringify(data))); // denne del her er hvad der skal ændres til at vi rent faktisk får sent vores spilleres data aka score videre til profilen.
+  .then(data => data(score));
   }
 
 function insertHighscore() {
