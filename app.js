@@ -5,6 +5,12 @@ function OpenGame(){
 
 }
 
+function LoadHighScore() {
+  fetch(url + "/highscore/" + prompt("Name:"))
+  .then(response => response.json())
+  .then(data => alert(JSON.stringify(data)));
+  }
+
 function insertHighscore() {
 
   let data = {
