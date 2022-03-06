@@ -1,18 +1,18 @@
 let url = "http://localhost:3001"; 
 
-function OpenGame(){
-  insertHighscore();
+function OpenGame(){ // 
+  insertHighscore(); 
 
 }
 
-function LoadHighScore() {
+function LoadHighScore() { // Her har vi selveste kode delen hvor det skal være sådan at man vil kunne få scoren til at blive til mængden af cookies spilleren har.
   fetch(url + "/highscore/" + prompt("Name:"))
   .then(response => response.json())
   //.then(data => alert(JSON.stringify(data))); // denne del her er hvad der skal ændres til at vi rent faktisk får sent vores spilleres data aka score videre til profilen.
-  .then(data => data(score));
+  .then(data => alert(JSON.stringify(data)));
   }
 
-function insertHighscore() {
+function insertHighscore() { // Her har vi funktionen hvor spilleren kan indsætte deres highscore, hvilket vi skal bruge til at kalde den score tilbage når personen vil load sin score.
 
   let data = {
     name: prompt("Name:"),
@@ -41,7 +41,7 @@ function getHighscore() {
   .then(data => alert(JSON.stringify(data)));
 }
 
-function getHighscores() {
+function getHighscores() { // Her ser man alle highscores, sammen med deres id og navn, Planen er at bruge navnet og få deres score igennem den.
   fetch(url + "/highscores")
   .then(response => response.json())
   .then(data => alert(JSON.stringify(data)));
