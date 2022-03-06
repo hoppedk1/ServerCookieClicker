@@ -11,8 +11,8 @@ let url = "http://localhost:3001";
 // Psudocode vi skal få lavet.
 // ScoreIntoGame(){ // En funktion som ligger enten i her, eller et andet sted som vil sende vores score ind i cookie clicker
   // data(score) = num; // Her ville vi så kalde selveste score delen af vores JSON data ud til at blive til det num, man har i vores cookie clicker spil.
-//   }
-    }
+//   } Ting som jeg tænkte kan være nødvendigt er at gøre brug af JSON.parse, men kunne ikke rigtigt få den del til at virke.
+    } // Upgrades nåede vi aldrig at komme hen og begynde at arbejde på, da det eneste vi endeligt fokuseret på var at lave selveste tallet af cookies hen. Dog ville det nok også være muligt at gemme mængden af cookies du fik per click osv.
 
 function insertHighscore() { // Her har vi funktionen hvor spilleren kan indsætte deres highscore, hvilket vi skal bruge til at kalde den score tilbage når personen vil load sin score.
 
