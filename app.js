@@ -1,17 +1,12 @@
 
 let url = "http://localhost:3001"; 
 
-function OpenGame(){ // 
-  insertHighscore(); 
-
-}
-
 
   function LoadHighScore() { // Her har vi selveste kode delen hvor det skal være sådan at man vil kunne få scoren til at blive til mængden af cookies spilleren har.
     fetch(url + "/highscore/" + prompt("Name:"))
-    .then(response => response.json())
+    .then(response => response.json()) // Her modtager den det orginale fetch, og bagefter laver det om ved hjælp af JSON.
     //.then(data => alert(JSON.stringify(data))); // denne del her er hvad der skal ændres til at vi rent faktisk får sent vores spilleres data aka score videre til profilen.
-    .then(data => alert(JSON.stringify(data)));
+    .then(data => alert(JSON.stringify(data))); // Her laver den en "stringified" version af data'en, hvilket vi ikke kan hive direkte ud af, hvilket er et problem
     alert("Her skulle du kunne få din score, hvor du så bagefter vil kunne få det til blive sendt videre til din rigtige cookie amount")
 // Psudocode vi skal få lavet.
 // ScoreIntoGame(){ // En funktion som ligger enten i her, eller et andet sted som vil sende vores score ind i cookie clicker
