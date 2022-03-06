@@ -1,3 +1,4 @@
+
 let url = "http://localhost:3001"; 
 
 function OpenGame(){ // 
@@ -5,12 +6,18 @@ function OpenGame(){ //
 
 }
 
-function LoadHighScore() { // Her har vi selveste kode delen hvor det skal være sådan at man vil kunne få scoren til at blive til mængden af cookies spilleren har.
-  fetch(url + "/highscore/" + prompt("Name:"))
-  .then(response => response.json())
-  //.then(data => alert(JSON.stringify(data))); // denne del her er hvad der skal ændres til at vi rent faktisk får sent vores spilleres data aka score videre til profilen.
-  .then(data => alert(JSON.stringify(data)));
-  }
+
+  function LoadHighScore() { // Her har vi selveste kode delen hvor det skal være sådan at man vil kunne få scoren til at blive til mængden af cookies spilleren har.
+    fetch(url + "/highscore/" + prompt("Name:"))
+    .then(response => response.json())
+    //.then(data => alert(JSON.stringify(data))); // denne del her er hvad der skal ændres til at vi rent faktisk får sent vores spilleres data aka score videre til profilen.
+    .then(data => alert(JSON.stringify(data)));
+    alert("Her skulle du kunne få din score, hvor du så bagefter vil kunne få det til blive sendt videre til din rigtige cookie amount")
+// Psudocode vi skal få lavet.
+// ScoreIntoGame(){ // En funktion som ligger enten i her, eller et andet sted som vil sende vores score ind i cookie clicker
+  // data(score) = num; // Her ville vi så kalde selveste score delen af vores JSON data ud til at blive til det num, man har i vores cookie clicker spil.
+//   }
+    }
 
 function insertHighscore() { // Her har vi funktionen hvor spilleren kan indsætte deres highscore, hvilket vi skal bruge til at kalde den score tilbage når personen vil load sin score.
 
